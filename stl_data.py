@@ -17,7 +17,7 @@ class Dataset:
         super().__init__()
         self.mode = mode
         if self.mode == "train":
-            self.dataframe = entire_df
+            self.dataframe = train_df
         elif self.mode == "test":
             self.dataframe = test_df
         elif self.mode == "val":
